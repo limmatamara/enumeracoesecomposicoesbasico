@@ -1,0 +1,14 @@
+package application;
+
+import entities.Coment;
+
+public class Program {
+
+	public static void main(String[] args) {
+		Coment coment1 = new Coment("Have a nice trip!");
+		Coment coment2 = new Coment("Wow, thats awesome!");
+		Post post1 = new Post("21/06/2018 13:05:44", "Traveling to New Zeland", "I'm going to visit this wonderful country", 12);
+		
+	}
+
+}

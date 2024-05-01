@@ -1,0 +1,30 @@
+package application;
+
+import java.util.Locale;
+import java.util.Scanner;
+
+import entities.Worker;
+
+public class Program {
+
+	public static void main(String[] args) {
+		Scanner sc = new Scanner(System.in);
+		Locale.setDefault(Locale.US);
+		
+		System.out.print("Enter department's name:");
+		String department = sc.nextLine();
+		System.out.println("Enter worker data:");
+		System.out.print("Name:");
+		String name = sc.nextLine();
+		System.out.print("Level:");
+		String level = sc.nextLine();
+		System.out.print("Base Salary:");
+		double baseSalary = sc.nextDouble();
+		
+		Worker worker = new Worker(name, level, baseSalary, department);
+		
+		sc.close();
+
+	}
+
+}

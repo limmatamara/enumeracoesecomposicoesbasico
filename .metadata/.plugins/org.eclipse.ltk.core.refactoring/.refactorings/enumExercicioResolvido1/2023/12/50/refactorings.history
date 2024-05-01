@@ -1,0 +1,4 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<session version="1.0">
+<refactoring comment="Convert local variable &apos;entities.Worker.income(...).sum&apos; in &apos;entities.Worker.income(...)&apos; to field&#x0D;&#x0A;- Original project: &apos;enumExercicioResolvido1&apos;&#x0D;&#x0A;- Original element: &apos;entities.Worker.income(...).sum&apos;&#x0D;&#x0A;- Field name: &apos;sum&apos;&#x0D;&#x0A;- Initialize field in method&#x0D;&#x0A;- Declared visibility: &apos;private&apos;" description="Convert local variable &apos;sum&apos; to field" final="false" flags="2" id="org.eclipse.jdt.ui.promote.temp" initialize="1" input="/src&lt;entities{Worker.java" name="sum" selection="1540 16" stamp="1702723848965" static="false" version="1.0" visibility="2"/>
+</session>

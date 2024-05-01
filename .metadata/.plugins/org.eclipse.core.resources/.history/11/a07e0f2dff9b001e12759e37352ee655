@@ -1,0 +1,29 @@
+package entities;
+
+import java.util.ArrayList;
+import java.util.List;
+
+import entities.enums.WorkerLevel;
+
+public class Worker {
+	public String name;
+	public WorkerLevel level;
+	public Double baseSalary;
+	
+	private Department department;
+	private List<HourContracts> contracts = new ArrayList<>(); //associação pq um funcionario pode ter varios contratos
+	
+	public Worker() {
+		
+	}
+
+	public Worker(String name, WorkerLevel level, Double baseSalary, Department department) { //nao marca nenhum atributo do tipo Lista
+		this.name = name;
+		this.level = level;
+		this.baseSalary = baseSalary;
+		this.department = department;
+	}
+
+	
+	
+}
